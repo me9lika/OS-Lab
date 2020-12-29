@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{tabularx} 
+\usepackage{xcolor}
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+
+
+
+\title{OS9 - shojaee}
+\author{melika shojaee}
+\date{December 30, 2020}
+\begin{document}
+\maketitle
+\section{Text}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie eros id enim convallis malesuada. Ut tortor leo, placerat sed.
+\section{Image}
+\includegraphics[scale=0.1]{latex.jpg}      
+\section{Table} 
+
+\begin{tabular}{|c|c|c|}
+\hline
+ a & b & c\\ 
+\hline
+ e & f & g\\ 
+
+\hline
+\end{tabular}
+
+\section{Formulas}
+$\lim\limits_{x \to \infty} \exp(-x) = 0$
+\section{Codes}
+\begin{lstlisting}[language=Python]
+def printName(): 
+    print('melika')
+\end{lstlisting}
+\end{document}
