@@ -17,5 +17,10 @@ steps :
                         \hline
                 \end{tabular}
 6) for formulas section -> \section{Formulas} $Formulas$
+7) for code section -> \section{Codes}
+\begin{lstlisting}[language=Python]
+%code block
+\end{lstlisting}
+\end{document}
                                                
 
